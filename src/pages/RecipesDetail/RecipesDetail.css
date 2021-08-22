@@ -1,0 +1,41 @@
+.recipes-image-detail{
+    box-shadow: 0 0 14px 4px rgba(0, 0, 0, .2);
+    border-radius: 10px;
+}
+.photo-holder {
+    background-color: white!important;
+     position: relative;
+     margin:  20px 40px;
+     width: 560px;
+
+   }
+   .overlay {
+     position: absolute;
+     bottom: 100%;
+     left: 0;
+     right: 0;
+     background-color: #008bba75;
+     overflow: hidden;
+     width: 100%;
+     height:0;
+     transition: .5s ease;
+   }
+   .text-photo {
+     color: white;
+     background-color: #008bba75;
+     font-size: 20px;
+     position: absolute;
+     top: 50%;
+     left: 50%;
+     transform: translate(-50%, -50%);
+     text-align: center;
+   }
+   
+   .photo-holder:hover .overlay {
+     bottom: 0;
+     height: 100%;
+   }
+   .summary-recipes{
+    text-align: justify!important;
+    text-justify: inter-word!important;
+   }
